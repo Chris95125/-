@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon/icon.png" type="image/png">
+        <link rel="apple-touch-icon" href="icon/icon.png">
+        <link rel="stylesheet" type="text/css" href="css/game.css">
+        <title>校園導覽遊戲</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                font-family: "Microsoft JhengHei", sans-serif;
+            }
+            .game-container {
+                text-align: center;
+                color: white;
+            }
+            .game-title {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            }
+            .start-button {
+                padding: 15px 30px;
+                font-size: 1.2em;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+            .start-button:hover {
+                background-color: #45a049;
+            }
+            .game-description {
+                margin-top: 20px;
+                font-size: 1.1em;
+                line-height: 1.6;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="game-container">
+            <h1 class="game-title">校園導覽遊戲</h1>
+            <button class="start-button" onclick="startGame()">開始遊戲</button>
+            <div class="game-description">
+                <p>歡迎來到校園導覽遊戲！</p>
+                <p>在這裡，你將跟隨導遊參觀校園的各個重要地點。</p>
+                <p>探索教學大樓、圖書館等場所，了解校園生活。</p>
+            </div>
+        </div>
+
+        <script>
+            function startGame() {
+                // 這裡可以添加啟動遊戲的邏輯
+                window.location.href = 'game.html';
+            }
+        </script>
+    </body>
+</html>

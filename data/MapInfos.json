@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"expanded":false,"name":"教學大樓","order":3,"parentId":3,"scrollX":1485.6,"scrollY":894,"quick":false},
+{"id":2,"expanded":true,"name":"學校","order":1,"parentId":0,"scrollX":976,"scrollY":876,"quick":true},
+{"id":3,"expanded":true,"name":"孔子","order":2,"parentId":2,"scrollX":976,"scrollY":876,"quick":false},
+{"id":4,"expanded":false,"name":"校園導覽","order":4,"parentId":2,"scrollX":0,"scrollY":0,"quick":false}
+]
